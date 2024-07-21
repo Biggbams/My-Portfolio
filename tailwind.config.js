@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        midpage: {1: "#FFDE4D"}
+        midpage: {1: "#FFff"},
+        background: {1: "#1A2130"},
+        navbar: {1: "#151515"},
+        text: {1: "#A91D3A"}
       }
     },
     fontSize: {
@@ -17,7 +20,7 @@ export default {
       '2xl':'1.563',
       '3xl':'1.953rem',
       '4xl':'2.441rem',
-      '5xl':'3.052rem',
+      '5xl':'4.552rem',
       '6xl':'6.5rem',
       '7xl':'7.5rem',
       '8xl':'8.5rem',

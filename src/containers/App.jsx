@@ -1,18 +1,26 @@
 import NavBar from "../components/navBar";
 import BodyText from "../components/bodyText";
-import Accounting from "../components/accounting";  
+import Skill from "../components/skill";
+import Contact from "../components/contact";
 
 function App() {
   return (
-    <div className="w-full">
+    <div className="w-[100vw]">
       <NavBar />
-      <BodyText />
-      <Accounting />
-      <BodyText />
-      <BodyText />
+      <div id="about">
+        <BodyText />
+      </div>
+      <div id="experience">
+        <Skill />
+      </div>
+      <div id="projects">
+        <BodyText />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }
-
 
 export default App;

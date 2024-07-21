@@ -1,9 +1,14 @@
 export default function NavBar() {
   return (
-    <div className="h-[70px] w-full fixed pt-[20px] px-[25px] bg-[#ff614c]">
+    <div className="h-[70px] w-[100vw] fixed py-[20px] px-[25px] bg-navbar-1">
       <ul className="flex justify-between">
-        <div className="items-center">
-          <li>Input Icon</li>
+        <div>
+          <li>
+            <a href="/">
+              {" "}
+              <img src="" className="" alt="logo" />
+            </a>
+          </li>
         </div>
         <div className="flex space-x-5">
           <div>
@@ -16,7 +21,7 @@ export default function NavBar() {
           <div>
             <li>
               <a href="#experience" className="">
-                Experience
+                Skill
               </a>
             </li>
           </div>
